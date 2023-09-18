@@ -1,3 +1,5 @@
+## Froked from [https://github.com/kyze8439690/action-release-releaseapk] (https://github.com/kyze8439690/action-release-releaseapk)
+
 # action-release-releaseapk
 
 ![screenshot](screenshot.png)
