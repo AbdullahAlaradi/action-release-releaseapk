@@ -16,8 +16,8 @@ name: Build & Publish Release APK
 
 on:
   push:
-    tags:
-      - '*'
+  branches:
+   - qa
 
 jobs:
   Gradle:
