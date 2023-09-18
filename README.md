@@ -1,4 +1,4 @@
-## Froked from [https://github.com/kyze8439690/action-release-releaseapk] (https://github.com/kyze8439690/action-release-releaseapk)
+Forked from [kyze8439690](https://github.com/kyze8439690/action-release-releaseapk). Thank you!
 
 # action-release-releaseapk
 
@@ -32,9 +32,9 @@ jobs:
     - name: Make Gradle executable
       run: chmod +x ./gradlew
     - name: Build Release APK
-      run: ./gradlew assembleRelease
+      run: ./gradlew assembleDebug
     - name: Releasing using Hub
-      uses: kyze8439690/action-release-releaseapk@master
+      uses: AbdullahAlaradi/action-release-releaseapk@master
       env:
        GITHUB_TOKEN: ${{ secrets.TOKEN }}
        APP_FOLDER: app
